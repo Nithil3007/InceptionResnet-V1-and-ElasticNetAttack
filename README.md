@@ -43,6 +43,8 @@ Adversarial attacks deceive the model into giving away sensitive information, ma
 
 Experimental results on MNIST, CIFAR-10, and ImageNet show that Elastic-net Attack to Deep neural networks (EAD) yields a distinct set of adversarial examples. More importantly, EAD leads to improved attack transferability suggesting novel insights on leveraging L1 distortion in generating robust adversarial examples.
 
+ElasticNet Attack - https://arxiv.org/abs/1709.04114
+
 ---------------------------------------------------------------
 
 # Dataset
