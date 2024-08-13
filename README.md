@@ -1,11 +1,3 @@
-# Project by
-
-  1. Nithil Eshwar Mani
-  2. Chiranjeevi
-  3. Abiramashree
-
-From Department of Computer Science & Engineering, College of Engineering, Guindy, Anna University
-
 # InceptionResnet V1 and ElasticNet Attack
 
 ---------------------------------------------------------------
@@ -73,3 +65,10 @@ Elastic net attack - with training.ipynb - The model is trained to adapt the Ela
 
 ---------------------------------------------------------------
 
+# Project by
+
+  1. Nithil Eshwar Mani
+  2. Chiranjeevi
+  3. Abiramashree
+
+From Department of Computer Science & Engineering, College of Engineering, Guindy, Anna University
