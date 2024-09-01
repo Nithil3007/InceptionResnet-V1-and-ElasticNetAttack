@@ -1,12 +1,10 @@
-# InceptionResnet V1 and ElasticNet Attack
-
 ---------------------------------------------------------------
 
 # Model
 
 https://iq.opengenus.org/inception-resnet-v1/
 
-The Inception-ResNet like the Inception v4 uses the same two reduction blocks. But uses inception-resnet blocks instead of inception ones. This is done so that the output of the inception module is added to the input. Each of these inception-resnet blocks consist of a shortcut connection. This greatly reduces the effect of vanishing gradient problem, i.e. helps the model to memorize the patterns easier no matter how deep the neural network is. The network becomes selective of the patterns it wants to learn. Reduction blocks control the breadth and depth of the network by providing max pooling and convolutional filters.
+The Inception-ResNet like the Inception v4 uses the same two reduction blocks. But uses inception-resnet blocks instead. This is done so that the output of the inception module is added to the input. Each of these inception-resnet blocks consist of a shortcut connection. This greatly reduces the effect of vanishing gradient problem, i.e. helps the model to memorize the patterns easier no matter how deep the neural network is. The network becomes selective of the patterns it wants to learn. Reduction blocks control the breadth and depth of the network by providing max pooling and convolutional filters.
 
 Reduction block A has
 1. a 3x3 MaxPool filter,
