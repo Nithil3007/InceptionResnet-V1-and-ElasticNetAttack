@@ -2,8 +2,6 @@
 
 # [Model](https://iq.opengenus.org/inception-resnet-v1/)
 
-### [Code](https://github.com/Nithil3007/InceptionResnet-V1-and-ElasticNetAttack)
-
 The Inception-ResNet like the Inception v4 uses the same two reduction blocks. But uses inception-resnet blocks instead. This is done so that the output of the inception module is added to the input. Each of these inception-resnet blocks consist of a shortcut connection. This greatly reduces the effect of vanishing gradient problem, i.e. helps the model to memorize the patterns easier no matter how deep the neural network is. The network becomes selective of the patterns it wants to learn. Reduction blocks control the breadth and depth of the network by providing max pooling and convolutional filters.
 
 Reduction block A has
@@ -42,6 +40,10 @@ Adversarial attacks deceive the model into giving away sensitive information, ma
 Experimental results on MNIST, CIFAR-10, and ImageNet show that Elastic-net Attack to Deep neural networks (EAD) yields a distinct set of adversarial examples. More importantly, EAD leads to improved attack transferability suggesting novel insights on leveraging L1 distortion in generating robust adversarial examples.
 
 ElasticNet Attack - https://arxiv.org/abs/1709.04114
+
+---------------------------------------------------------------
+
+### [Code](https://github.com/Nithil3007/InceptionResnet-V1-and-ElasticNetAttack)
 
 ---------------------------------------------------------------
 
