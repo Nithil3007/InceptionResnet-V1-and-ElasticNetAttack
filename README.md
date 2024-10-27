@@ -2,6 +2,8 @@
 
 # [Model](https://iq.opengenus.org/inception-resnet-v1/)
 
+### [Code](https://github.com/Nithil3007/InceptionResnet-V1-and-ElasticNetAttack)
+
 The Inception-ResNet like the Inception v4 uses the same two reduction blocks. But uses inception-resnet blocks instead. This is done so that the output of the inception module is added to the input. Each of these inception-resnet blocks consist of a shortcut connection. This greatly reduces the effect of vanishing gradient problem, i.e. helps the model to memorize the patterns easier no matter how deep the neural network is. The network becomes selective of the patterns it wants to learn. Reduction blocks control the breadth and depth of the network by providing max pooling and convolutional filters.
 
 Reduction block A has
@@ -50,13 +52,13 @@ ElasticNet Attack - https://arxiv.org/abs/1709.04114
 
 # Files
 
-InceptionResnetV1 Pytorch (Config 1).ipynb - All the layers in the model are trainable.
+[InceptionResnetV1 Pytorch (Config 1).ipynb - All the layers in the model are trainable.](https://github.com/Nithil3007/InceptionResnet-V1-and-ElasticNetAttack/blob/main/InceptionResnetV1%20Pytorch%20(Config%201).ipynb)
 
-InceptionResnetV1 Pytorch (Config 2).ipynb - The first 9 layers in the model are freezed.
+[InceptionResnetV1 Pytorch (Config 2).ipynb - The first 9 layers in the model are freezed.](https://github.com/Nithil3007/InceptionResnet-V1-and-ElasticNetAttack/blob/main/InceptionResnetV1%20Pytorch%20(Config%202).ipynb)
 
-Elastic net attack - without training.ipynb - The model is not trained to adapt elastic net attack. Poor results are obtained.
+[Elastic net attack - without training.ipynb - The model is not trained to adapt elastic net attack. Poor results are obtained.](https://github.com/Nithil3007/InceptionResnet-V1-and-ElasticNetAttack/blob/main/Elastic%20net%20attack%20without%20training.ipynb)
 
-Elastic net attack - with training.ipynb - The model is trained to adapt the ElasticNet attack. Imporved results are obtained.
+[Elastic net attack - with training.ipynb - The model is trained to adapt the ElasticNet attack. Imporved results are obtained.](https://github.com/Nithil3007/InceptionResnet-V1-and-ElasticNetAttack/blob/main/Elastic%20net%20attack%20with%20training.ipynb)
 
 ---------------------------------------------------------------
 
